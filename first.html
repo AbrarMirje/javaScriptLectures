@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways to add JS file to HTML file</title>
+    <!-- Inside Head tag -->
+    <script>
+        function changeColor() {
+            document.querySelector("#para").style.color = "white";
+            document.querySelector("#para").style.background = "tomato";
+        }
+    </script>
+</head>
+
+<body>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat in sapiente magni architecto
+        corporis rem enim repudiandae quos expedita?</p>
+    <button onclick="changeColor()">Change Color</button>
+</body>
+
+</html>
