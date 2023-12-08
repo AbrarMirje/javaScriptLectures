@@ -1,6 +1,5 @@
 // // const userName = "JS";
 
-
 // key === value
 const userNames = {
     firstName: "Abrar",
